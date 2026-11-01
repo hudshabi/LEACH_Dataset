@@ -1,0 +1,79 @@
+{
+  "train_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "train_steps": 50000,
+  "development_seeds": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009
+  ],
+  "test_seeds": [
+    4000,
+    4001,
+    4002,
+    4003,
+    4004,
+    4005,
+    4006,
+    4007,
+    4008,
+    4009,
+    4010,
+    4011,
+    4012,
+    4013,
+    4014,
+    4015,
+    4016,
+    4017,
+    4018,
+    4019
+  ],
+  "factorial": [
+    "S0R0",
+    "S1R0",
+    "S0R1",
+    "S1R1"
+  ],
+  "periods": [
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "alive_drop_thresholds": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "evaluation_horizon": 1500,
+  "primary_endpoints": [
+    "C200",
+    "T10",
+    "T50"
+  ],
+  "secondary": [
+    "PDR",
+    "LND",
+    "energy_per_delivered",
+    "energy_per_round",
+    "overhead_bits_per_round"
+  ],
+  "normalized_action_cost": "0.05*requested_action*alive_before/100",
+  "selection_rule": "Select deterministic comparator on development mean C200; break ties with smaller mean energy per delivered sample. Never retune on test seeds.",
+  "comparison": "Paired by training seed and environment seed; retain training seed as clustering unit in interval estimation.",
+  "scope": "Energy-distance heuristic, no MILP. No promise of favorable result."
+}

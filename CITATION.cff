@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the associated article and this repository using its real URL after publication."
+title: "Yield-Driven Cluster Formation under Finite Retries in LEACH-Style Wireless Sensor Networks A Matched-Energy Selection-and-Confirmation Study"
+type: software
+authors:
+  - family-names: Al-Shabi
+    given-names: Mohammed
+  - family-names: Abuhamdah
+    given-names: Anmar
+license: MIT
+keywords:
+  - wireless sensor networks
+  - finite retries
+  - cluster formation
+  - reproducibility

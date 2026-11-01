@@ -1,0 +1,294 @@
+{
+  "source": "Enhanced_LEACH_Study.zip version 4; executed study v3.0.0",
+  "scope": "Main formation/timing study and component Monte Carlo check. Historical RL experiments and manuscript drafts excluded. No scored method or unfavorable outcome removed from the included cohorts.",
+  "files_copied_byte_for_byte": [
+    {
+      "path": "base_simulator.py",
+      "source_path": "base_simulator.py",
+      "sha256": "9f32b6349763b49df7fcd44621ef58fcba827f7f6a2e506860264016994f2bf0",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "run_study.py",
+      "source_path": "run_study.py",
+      "sha256": "c0cf6e3102dc508715b8cdafacc28443aee39f89eb74de7372bfcadca0acce0a",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "run_equal_budget.py",
+      "source_path": "run_equal_budget.py",
+      "sha256": "1103a627867ba725cb4a25b4d40f45233f70cbb7b41ae76fa1c5530146f60590",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension_protocol.py",
+      "source_path": "extension_protocol.py",
+      "sha256": "e2438f1fe29253890ba39b724a6c2292a729cae40d0582d0ff4a1b0c653e9b58",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "analyze_extension.py",
+      "source_path": "analyze_extension.py",
+      "sha256": "61b60702645043c369a9e35bd81f6746f28eff9cb718135ba48d14332f1f3ebd",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "analyze_confirmation.py",
+      "source_path": "analyze_confirmation.py",
+      "sha256": "1409095566c71504aad054bd694c4bfccd9843f9e8b9d5f29f6c02abaee941dd",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "run_forecast_ablation.py",
+      "source_path": "run_forecast_ablation.py",
+      "sha256": "fb0d78e510c990b12d9255d22916681cf67027d8da5f3cb26ab0b5dd086db77d",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "independent_batch_simulator.py",
+      "source_path": "independent_batch_simulator.py",
+      "sha256": "a1d29fec3bb82253de0291264ff5ff08513e247ab148eb866558288335f0aae6",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "validate_extension_forecast.py",
+      "source_path": "validate_extension_forecast.py",
+      "sha256": "6cc9278ce40b07fa0259479c6a5c7e7ffa928acad0f48f6f2d64ca29804f840f",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "test_extension.py",
+      "source_path": "test_extension.py",
+      "sha256": "8d26efc366889ce26908656b46815317b537738180487d21e50b87f57be15939",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "design.json",
+      "source_path": "design.json",
+      "sha256": "fcb2d885e7c49c202da0b12d12bbe3d40e1390d82c9cecf327a92d05a484e883",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "final_validation_plan.json",
+      "source_path": "final_validation_plan.json",
+      "sha256": "c478fc186b4d0ab91c5ff811bac01bfcdf3a3198e0e597b7efeedc56cd70df0f",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "requirements.txt",
+      "source_path": "requirements.txt",
+      "sha256": "1920ac3250bb8d501ec085cd912bf837398875c463cbb859c1ebde456cc0eb85",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "versions.json",
+      "source_path": "versions.json",
+      "sha256": "74c4080a02252bb3c2da2e2d7a04376a3f6a68b7d9fff5348715169f5087ad4a",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "sha256": "d54a58effb670cce63c129bbb7272076feaa50a711b1186bcfde4e18b4d02608",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/analysis.json",
+      "source_path": "extension/analysis.json",
+      "sha256": "a6d9bba1ec71592f7833da4bc08163d4bae2cca66ec64cda6c214000b4ce2898",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/attribution.json",
+      "source_path": "extension/attribution.json",
+      "sha256": "1de29f0561354655eb848ceb49455418f940fd49f67fd32b32eae4f9f688466e",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/condition_summary.csv",
+      "source_path": "extension/condition_summary.csv",
+      "sha256": "670a3a98468dc45cd9f131bc55fe3e1e46a399431a40ef29ba177c96e25c4998",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_amendment.json",
+      "source_path": "extension/confirmation_amendment.json",
+      "sha256": "4aed5c2e918e59b5bf6a2a556120262a39167d136d64eca17c1cc243d7496770",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_amendment.sha256",
+      "source_path": "extension/confirmation_amendment.sha256",
+      "sha256": "80cbf1d66edb937fe4f0de93701165f7c353a2697e97a466100a9610fe9363e2",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_analysis.json",
+      "source_path": "extension/confirmation_analysis.json",
+      "sha256": "bef60c969efa7bb77ceb453747e4deb69955252001d9f1ba711df0ab473bca6d",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_budget_descriptive.csv",
+      "source_path": "extension/confirmation_budget_descriptive.csv",
+      "sha256": "273da9d5b7d53363033fa50ec9253f91851457c5bcc0913ea2da43b9dd6a0cb8",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_condition_contrasts.csv",
+      "source_path": "extension/confirmation_condition_contrasts.csv",
+      "sha256": "fad3a846725a48b3e45316f82ac6c4316af0a382ae05ebc0bfc40257c0373e77",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_condition_summary.csv",
+      "source_path": "extension/confirmation_condition_summary.csv",
+      "sha256": "f75e6393b24bae47463e6be5721cde9c35aeb037d7e07ef4b97985dff7022e97",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_extra_metrics.csv",
+      "source_path": "extension/confirmation_extra_metrics.csv",
+      "sha256": "654682515555a1d86a1dbd8241ca7ac75876ae123eb0f6b44943e0644eeede9f",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_metrics.csv",
+      "source_path": "extension/confirmation_metrics.csv",
+      "sha256": "040b6ecbc6cac2fc3fece1b8f3da4b0c6415ab0b7ee72485087e177e02debf60",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_plan.json",
+      "source_path": "extension/confirmation_plan.json",
+      "sha256": "bc6f05d90604f17da0d454feaeb0d548ae4e3b6d2e049414753f6fa70931ff55",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_plan.sha256",
+      "source_path": "extension/confirmation_plan.sha256",
+      "sha256": "44aaaf440ee6bbe598dcc9f21ec7cdb9ed3ec99cc669852e3ebe2ca0de0eecf2",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_primary.csv",
+      "source_path": "extension/confirmation_primary.csv",
+      "sha256": "ce79cdaeda00239539274ade12ec473792099c2c44a56add1dd2696c22d9dea9",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_summary.csv",
+      "source_path": "extension/confirmation_summary.csv",
+      "sha256": "106ee50289ece58fa21851adabe780410652c9073d9534638c2f3f385c595dc8",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/development_metrics.csv",
+      "source_path": "extension/development_metrics.csv",
+      "sha256": "5326c62c79173f3b06e68b2b00006e95a3098d0f6d649e44f1c414d79e1888a6",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/forecast_mc_check.json",
+      "source_path": "extension/forecast_mc_check.json",
+      "sha256": "97b34f931105a4d2344eef5be9f1fa16f5a0de0c6a46c244e1f61252932fc231",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/plan.json",
+      "source_path": "extension/plan.json",
+      "sha256": "f808f0531b76da1df33904878314a4eb0e2e86d94b14ba6afd30767dc47bdb5c",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/plan.sha256",
+      "source_path": "extension/plan.sha256",
+      "sha256": "1c0edf43b302a0bc953127b222e2b22ca5ea262b139f910e77775e47691ff776",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/pooled_summary.csv",
+      "source_path": "extension/pooled_summary.csv",
+      "sha256": "3fde61b8070abb520c84ed7b7adca9a7ebd3ba8ced09e1b9386397bed5157d19",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/primary_contrasts.csv",
+      "source_path": "extension/primary_contrasts.csv",
+      "sha256": "a2f2c224ddb6772770c487531160e6d7993e5a0aab3a534778cffb7bdb0ad724",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/protocol_confirmation_original.py",
+      "source_path": "extension/protocol_confirmation_original.py",
+      "sha256": "cc56eb3afe0810998ac478867d94340ea9848911e9aadb6cd78b3d53cf1ac592",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/protocol_stage1.py",
+      "source_path": "extension/protocol_stage1.py",
+      "sha256": "256cf6eaa59c2e344ddfea7733e4bbfdd6b50d4769dbef0b9729eb67d6ee1e45",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/secondary_contrasts_descriptive.csv",
+      "source_path": "extension/secondary_contrasts_descriptive.csv",
+      "sha256": "9842d8add09f29f53c2f3b3f5ee2ea561a0744786a7c9d5ba694b5fc4cd01f07",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/selected.json",
+      "source_path": "extension/selected.json",
+      "sha256": "b539d1678d54842de28333eb69762dc5de63153f09d0ac0b86ecd1f6ca2416ee",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/source_before_confirmation.sha256",
+      "source_path": "extension/source_before_confirmation.sha256",
+      "sha256": "46bf0bb8555b40e02dfdd0f82f94c101a30956b0ce9aa0bc54eb890f4c29881c",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/source_before_test.sha256",
+      "source_path": "extension/source_before_test.sha256",
+      "sha256": "a0e84efd4e8a6b14d22dfcd32e93b843706aad2bcf108ca0f9dd29df07aa9c49",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/source_extra_confirmation.sha256",
+      "source_path": "extension/source_extra_confirmation.sha256",
+      "sha256": "667dee82940de31f23ff77c2e076c96026dbc36bc2c7be41ce0d8c293d6e8a1a",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/source_version_map.json",
+      "source_path": "extension/source_version_map.json",
+      "sha256": "9a829d0e8c7e6a58ae76a6bf325f826cf0a5fe4b1753b4f9bfe7ed63df7b2c24",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/test_metrics.csv",
+      "source_path": "extension/test_metrics.csv",
+      "sha256": "786c6336edae0b966f8f3a891f7649a28b7b2043f2b414fa28b60985e808a4ea",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/ablation_cost.png",
+      "source_path": "extension/ablation_cost.png",
+      "sha256": "c58107b7c95fbbc39891a6b147cf4760c9a55d37834b067180124b70c3ebcb68",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_yield.png",
+      "source_path": "extension/confirmation_yield.png",
+      "sha256": "502b670bc97fb63679ce92bce5a91d295d60335259fed728a456014f12506a3b",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    },
+    {
+      "path": "extension/confirmation_ablation.png",
+      "source_path": "extension/confirmation_ablation.png",
+      "sha256": "0218c78f1546c155b3dd2b54d2f28f7dae84bc2b42cf8cf263f419f3b5b5b47b",
+      "use": "original scored implementation, dependency, configuration or reported result"
+    }
+  ]
+}

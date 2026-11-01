@@ -1,0 +1,18 @@
+{
+  "curated_scope": "Main study only; no new simulations or changed numerical outcomes",
+  "development": 54,
+  "exploratory": 2880,
+  "confirmation": 5120,
+  "raw_scored_files": 17388,
+  "analysis_scripts_executed": [
+    "analyze_extension.py",
+    "analyze_confirmation.py"
+  ],
+  "reproduced_summary_tables": 6,
+  "numerical_tolerance": 1e-11,
+  "all_raw_source_hashes_match": true,
+  "largest_raw_archive_bytes": 4219463,
+  "full_simulator_tests_rerun": false,
+  "reason": "Original simulation source copied byte-for-byte; simulation dependencies not installed for this packaging task. Nine original extension tests are supplied.",
+  "published_to_github": false
+}

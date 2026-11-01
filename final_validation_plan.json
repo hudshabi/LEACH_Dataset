@@ -1,0 +1,13 @@
+{
+ "status":"Final computational investigation specified before its new outcomes; no external preregistration",
+ "fresh_scenarios":[6000,6001,6002,6003,6004,6005,6006,6007,6008,6009,6010,6011,6012,6013,6014,6015,6016,6017,6018,6019],
+ "energy_budgets_joules":[10,20,30,40],
+ "budget_policies":["Never","Period5","Period20","S0R0","S1R1"],
+ "training_seeds":[11,22,33,44,55],
+ "budget_rule":"Hard cap on actual sensor dissipation within each individual consume operation. A globally unaffordable operation consumes only the remaining global allowance and cannot complete. Node residual energy is preserved. End the evaluation after the budget-exhausting partial round. No policy is retrained or retuned.",
+ "budget_primary":"Delivered source samples at the exact spent-energy cap; paired Period5 versus Never over 20 scenarios, Holm over four budgets",
+ "budget_secondary":"J per delivered sample, elapsed attempted rounds, final alive count, generated samples, run delivery ratio, scheduled control; two learned treatments retain five training seeds",
+ "monte_carlo":{"scenarios":[6000,6001,6002],"completed_rounds":[50,150],"models":"All 20 S0 reward-intervention diagnostic models: four treatments times five training seeds; Full reuses S0R0","replicates_per_action":64,"pairing":"Both initial actions share each replicate's fresh future random stream, conditional on the exact saved physical and channel state. Thereafter follow that checkpoint's greedy policy until network exhaustion or the original horizon 1500.","discount":0.95,"estimand":"Conditional Q of each frozen greedy policy at six saved full states, not optimal Q and not expectation over every hidden state compatible with the observation","intervals":"Paired Monte Carlo t interval df63; also Bonferroni simultaneous intervals over all 120 state-model advantages, alpha .05. Report MC standard errors and action-value calibration errors; no state treated as an independent training run."},
+ "independent_implementation":{"module":"independent_batch_simulator.py","restriction":"NumPy implementation with no import/subclass/calls to original simulator transition or clustering code","audit_scenarios":"All 20 fresh scenarios","policies":["Never","Period5","Period20","FixedRandomActions"],"comparison":"Every round compare CH order/membership, counters, both observation vectors, residual energy, channel state and R0 reward; exact integer equality, numerical tolerance 1e-10","scope":"Independently coded within the same project and checked against the same specification; not a separate research team or external replication"},
+ "selection":"Retain all budgets, policies, model seeds, MC states and outcomes; no favorable outcome required"
+}
