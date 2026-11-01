@@ -1,0 +1,6 @@
+{
+ "reason":"Code review identified that removing the delivery survival discount while retaining capped forecast expenditure can inflate projected yield. Add a fairer conventional forecast that removes exhaustion from both expected service and expected energy. Keep the original one-term ablation and all results.",
+ "timing":"Added during confirmation execution before inspecting confirmation metrics or computing confirmation contrasts. No changes to previous policy trajectories.",
+ "additional_policy":"NoExhaustionNever: one-attempt/retry mixture retained; forecast service ignores battery exhaustion and forecast expenditure is H times expected per-round load plus full reconfiguration energy. Actual simulator costs and mandatory repair unchanged.",
+ "primary_family":"Expand prospectively to seven pooled 40 J contrasts, adding OptimizedNever minus NoExhaustionNever; condition-specific secondary family expanded to 28 contrasts. All other rules unchanged."
+}

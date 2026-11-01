@@ -1,0 +1,140 @@
+{
+  "episodes": 2880,
+  "development_episodes": 54,
+  "primary": [
+    {
+      "comparator": "Never",
+      "mean_a": 6444.6875,
+      "mean_b": 6192.7375,
+      "difference": 251.95,
+      "relative_pct": 4.06847537135233,
+      "low": 160.2496875,
+      "high": 341.92812499999974,
+      "raw_p": 3.8730027936582325e-05,
+      "n": 20,
+      "holm_p": 0.00019365013968291163
+    },
+    {
+      "comparator": "Period5",
+      "mean_a": 6444.6875,
+      "mean_b": 6474.9125,
+      "difference": -30.225,
+      "relative_pct": -0.466801674926109,
+      "low": -123.01281250000001,
+      "high": 66.81312499999994,
+      "raw_p": 0.5498561222086114,
+      "n": 20,
+      "holm_p": 0.5498561222086114
+    },
+    {
+      "comparator": "OptimizedPeriod",
+      "mean_a": 6444.6875,
+      "mean_b": 6574.775,
+      "difference": -130.0875,
+      "relative_pct": -1.9785848184918877,
+      "low": -213.8634375,
+      "high": -47.88718750000003,
+      "raw_p": 0.007424407846209033,
+      "n": 20,
+      "holm_p": 0.02969763138483613
+    },
+    {
+      "comparator": "BaseGate",
+      "mean_a": 6444.6875,
+      "mean_b": 6298.3125,
+      "difference": 146.375,
+      "relative_pct": 2.324035207843371,
+      "low": 35.586875,
+      "high": 255.56562499999973,
+      "raw_p": 0.019500375720281033,
+      "n": 20,
+      "holm_p": 0.0585011271608431
+    },
+    {
+      "comparator": "NoRetryGate",
+      "mean_a": 6444.6875,
+      "mean_b": 6541.85,
+      "difference": -97.1625,
+      "relative_pct": -1.4852449995031987,
+      "low": -178.065625,
+      "high": -11.012187500000026,
+      "raw_p": 0.03940697903926147,
+      "n": 20,
+      "holm_p": 0.07881395807852294
+    },
+    {
+      "comparator": "NoSurvivalGate",
+      "mean_a": 6444.6875,
+      "mean_b": 6088.1125,
+      "difference": 356.575,
+      "relative_pct": 5.856905568022929,
+      "low": 252.7125,
+      "high": 457.43812499999996,
+      "raw_p": 2.360873730585319e-06,
+      "n": 20,
+      "holm_p": 1.4165242383511915e-05
+    }
+  ],
+  "attribution": {
+    "cluster_at_period": 265.25,
+    "cluster_at_gate": 146.375,
+    "gate_at_base": -11.2125,
+    "gate_at_optimized": -130.0875,
+    "interaction": -118.875,
+    "status": "descriptive attribution; not an additional confirmatory family"
+  },
+  "total_spent": 72000.0,
+  "plan_sha256": "f808f0531b76da1df33904878314a4eb0e2e86d94b14ba6afd30767dc47bdb5c",
+  "selected": {
+    "H": 20,
+    "period": 20,
+    "rule": "Choose horizon and optimized periodic comparator jointly by mean delivered samples at 40 J on the six nominal development scenarios. Gate uses the selected horizon. Deterministic ties prefer lower horizon then lower period.",
+    "scores": [
+      {
+        "H": 20,
+        "period": 20,
+        "delivered": 8584.166666666666
+      },
+      {
+        "H": 5,
+        "period": 5,
+        "delivered": 8491.166666666666
+      },
+      {
+        "H": 20,
+        "period": 50,
+        "delivered": 8463.166666666666
+      },
+      {
+        "H": 5,
+        "period": 50,
+        "delivered": 8409.5
+      },
+      {
+        "H": 10,
+        "period": 5,
+        "delivered": 8387.666666666666
+      },
+      {
+        "H": 10,
+        "period": 50,
+        "delivered": 8279.833333333334
+      },
+      {
+        "H": 20,
+        "period": 5,
+        "delivered": 8266.833333333334
+      },
+      {
+        "H": 5,
+        "period": 20,
+        "delivered": 8222.5
+      },
+      {
+        "H": 10,
+        "period": 20,
+        "delivered": 8190.5
+      }
+    ]
+  }
+}

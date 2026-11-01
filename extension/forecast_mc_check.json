@@ -1,0 +1,19 @@
+{
+  "delivery": {
+    "predicted": 37.81724648359928,
+    "mc_mean": 37.7184,
+    "standard_error": 0.19031146047781494,
+    "z_error": -0.5193932270347805,
+    "passed": true
+  },
+  "energy": {
+    "predicted": 0.18030374164714646,
+    "mc_mean": 0.18029968667013271,
+    "standard_error": 0.00013123319754017567,
+    "z_error": -0.030899018615389802,
+    "passed": true
+  },
+  "replicates": 10000,
+  "condition": "nominal",
+  "scope": "Stationary one-round affordable transmissions only; no validation of H-round survival approximation"
+}

@@ -1,0 +1,13 @@
+{
+ "status":"Second prospective validation protocol fixed after stage one, before fresh confirmation outcomes; not externally preregistered",
+ "selection_disclosure":"Stage one favored OptimizedNever descriptively at 40 J, 6574.9125 samples versus OptimizedPeriod 6574.775 and OptimizedGate 6444.6875. This is outcome-informed method selection. Stage one gate failed against Period5 and was worse than OptimizedPeriod. Retain all stage one results.",
+ "frozen_H":20,"frozen_period":20,
+ "test_seeds_start":9000,"test_seed_count":40,
+ "conditions":["nominal","poor_channel","far_sink","heterogeneous"],
+ "budgets_joules":[10,20,30,40],
+ "policies":["Never","Period5","SelectedPeriod","OptimizedPeriod","OptimizedNever","NoRetryNever","NoSurvivalNever"],
+ "primary":"Delivered samples at 40 J: OptimizedNever minus each of Never, Period5, SelectedPeriod, OptimizedPeriod, NoRetryNever, NoSurvivalNever. Pair by scenario and average equally over four conditions. Two-sided paired t on 40 scenario means; Holm over six comparisons. Bootstrap 20000 scenario clusters, 95 percent percentile intervals descriptive and not simultaneous.",
+ "secondary":"If primary comparison with Never survives Holm, report condition-specific 40 J tests with Holm across 24 comparisons (six comparators times four conditions). All lower-budget effects descriptive only. Report all failures and tradeoffs.",
+ "method":"Same local swap energy-yield clustering and mandatory repair as stage one. No voluntary reclustering and no monitoring polls. NoRetryNever uses one-attempt surrogate in planning only, simulator retries unchanged. NoSurvivalNever removes forecast energy-exhaustion service discount; same physical energy debit and costs.",
+ "scope":"No new RL training. Model-based extension to the common heuristic simulator, not faithful replication of LEACH-RLC MILP. No guarantee of globally optimal clusters or publication novelty."
+}

@@ -1,0 +1,17 @@
+{
+ "name":"Retry-aware clustering with an amortized energy-yield gate",
+ "status":"Prospective extension protocol fixed before development and test outcomes; informed by previous exploratory experiments",
+ "development_seeds":[7000,7001,7002,7003,7004,7005],
+ "test_seeds_start":8000,"test_seed_count":20,
+ "conditions":["nominal","poor_channel","far_sink","heterogeneous"],
+ "budgets_joules":[10,20,30,40],
+ "planning_horizons":[5,10,20],"periods":[5,20,50],
+ "development_selection":"Choose horizon and optimized periodic comparator jointly by mean delivered samples at 40 J on the six nominal development scenarios. Gate uses the selected horizon. Deterministic ties prefer lower horizon then lower period.",
+ "gate":"At five-round polls, charge 100-bit residual-energy telemetry to BS for every alive sensor; choose reform if candidate H-horizon predicted yield after reconfiguration exceeds retained clustering yield by 2 percent. No instantaneous channel states or future random numbers are used.",
+ "clustering":"Deterministic two-pass single-head swap search maximizing predicted delivered samples per joule including retry expectations, node energy exhaustion approximation and reconfiguration cost. Same nearest-head membership rule and head count as original heuristic. No MILP or global optimality claim.",
+ "policies":["Never","Period5","SelectedPeriod","BaseGate","OptimizedPeriod","OptimizedNever","OptimizedGate","NoRetryGate","NoSurvivalGate"],
+ "primary":"Delivered source samples under 40 J, OptimizedGate minus each of Never, Period5, OptimizedPeriod, BaseGate, NoRetryGate, NoSurvivalGate, averaged equally across four conditions with scenario-cluster bootstrap and paired t test on 20 four-condition scenario means; Holm family of six two-sided contrasts",
+ "secondary":"All 10/20/30 J and condition-specific contrasts are descriptive intervals, no confirmatory claims; service by round 200 only if reached; control telemetry/reform bits, requests, changed heads, runtime, censored endpoints retained.",
+ "bootstrap_resamples":20000,"bootstrap_seed":94401,
+ "interpretation":"Benefits are conditional on stated simulation. Negative/null outcomes retained. No new DQN training and no claims of superiority over faithfully reproduced published LEACH-RLC. Attachment results are prior work, never pooled with these experiments."
+}

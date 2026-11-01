@@ -1,0 +1,15 @@
+{
+  "versions": [
+    {
+      "archived_file": "protocol_stage1.py",
+      "hash_record": "source_before_test.sha256",
+      "sha256": "256cf6eaa59c2e344ddfea7733e4bbfdd6b50d4769dbef0b9729eb67d6ee1e45"
+    },
+    {
+      "archived_file": "protocol_confirmation_original.py",
+      "hash_record": "source_before_confirmation.sha256",
+      "sha256": "cc56eb3afe0810998ac478867d94340ea9848911e9aadb6cd78b3d53cf1ac592"
+    }
+  ],
+  "notes": "Historical hash records name the then-current root path. Archived versions above preserve those exact bytes. Current code adds an uncapped-forecast arm without changing previous policy behavior."
+}

@@ -1,0 +1,52 @@
+{
+  "H": 20,
+  "period": 20,
+  "rule": "Choose horizon and optimized periodic comparator jointly by mean delivered samples at 40 J on the six nominal development scenarios. Gate uses the selected horizon. Deterministic ties prefer lower horizon then lower period.",
+  "scores": [
+    {
+      "H": 20,
+      "period": 20,
+      "delivered": 8584.166666666666
+    },
+    {
+      "H": 5,
+      "period": 5,
+      "delivered": 8491.166666666666
+    },
+    {
+      "H": 20,
+      "period": 50,
+      "delivered": 8463.166666666666
+    },
+    {
+      "H": 5,
+      "period": 50,
+      "delivered": 8409.5
+    },
+    {
+      "H": 10,
+      "period": 5,
+      "delivered": 8387.666666666666
+    },
+    {
+      "H": 10,
+      "period": 50,
+      "delivered": 8279.833333333334
+    },
+    {
+      "H": 20,
+      "period": 5,
+      "delivered": 8266.833333333334
+    },
+    {
+      "H": 5,
+      "period": 20,
+      "delivered": 8222.5
+    },
+    {
+      "H": 10,
+      "period": 20,
+      "delivered": 8190.5
+    }
+  ]
+}
